@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aventura Interativa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida. Decidi seguir as pistas!</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você decide explorar as praias em busca de um antigo naufrágio.</p>
+            <button class="btn-proximo" data-proximo="5">Mergulhar próximo aos corais</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico, você encontra um mapa dourado! A aventura continua...</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
